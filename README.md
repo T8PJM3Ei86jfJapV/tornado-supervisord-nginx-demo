@@ -48,7 +48,7 @@ Ubuntu下，Python, Nginx通过apt-get安装，Tornado, Supervisor可通过pip�
         http_server.listen(options.port)  
         tornado.ioloop.IOLoop.instance().start()
 
-以上Demo程序默认端口8000。运行```python demo.py -port=8080```，通过浏览器访问http://localhost:8080，页面显示“Hello 8080”。
+以上Demo程序默认端口8000。运行```python demo.py --port=8080```，通过浏览器访问http://localhost:8080，页面显示“Hello 8080”。
 
 ### 5 通过Supervisor管理Tornado多进程
 
